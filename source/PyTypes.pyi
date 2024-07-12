@@ -6,7 +6,3 @@ class Boolean:
     return 1
   def false() -> int:
     return -1
-
-i = Boolean.true()
-
-TypeLine(i)
