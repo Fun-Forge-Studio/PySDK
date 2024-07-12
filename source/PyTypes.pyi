@@ -1,8 +1,12 @@
 from typing import overload
-from Output import *
+from typing_extensions import Self
 
 class Boolean:
-  def true() -> int:
+  def true(self) -> int:
     return 1
-  def false() -> int:
+
+  def false(self) -> str:
     return -1
+  
+  def Switch(self):
+    pass
